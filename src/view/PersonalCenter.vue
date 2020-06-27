@@ -1,12 +1,12 @@
 <!--
  * @Author: marx
  * @Date: 2020-06-27 19:05:41
- * @LastEditTime: 2020-06-27 22:40:35
+ * @LastEditTime: 2020-06-27 22:53:20
  * @Description: 个人中心
  * @FilePath: /tian-lu/src/view/PersonalCenter.vue
 --> 
 <template>
-  <div>
+  <div class="personal-center">
     <!-- 基本信息 -->
     <BaseInfo class="base-info" />
     <!-- 功能入口 -->
@@ -35,14 +35,17 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.base-info {
-  height: 300px;
+.personal-center {
+  padding-top: 44px;
   background-image: -webkit-image-set(
     url("../assets/imgs/nav_bg.png") 1x,
     url("../assets/imgs/nav_bg@2x.png") 2x,
     url("../assets/imgs/nav_bg@3x.png") 3x
   );
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 270px;
+}
+.base-info {
+  height: 300px;
 }
 </style>
