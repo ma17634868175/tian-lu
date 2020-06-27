@@ -1,7 +1,7 @@
 ###
  # @Author: marx
  # @Date: 2020-06-27 21:47:36
- # @LastEditTime: 2020-06-27 22:06:58
+ # @LastEditTime: 2020-06-27 22:11:30
  # @Description: 组件描述
  # @FilePath: /tian-lu/deploy.sh
 ### 
@@ -30,6 +30,7 @@ git commit -m 'deploy'
 git push -f git@github.com:ma17634868175/ma17634868175.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:nusr/resume-vue.git master:gh-pages
+# git push -f git@github.com:ma17634868175/dist.git master:gh-pages
+
 
 cd -

@@ -1,7 +1,7 @@
 /*
  * @Author: marx
  * @Date: 2020-06-27 18:20:02
- * @LastEditTime: 2020-06-27 21:36:42
+ * @LastEditTime: 2020-06-27 22:17:42
  * @Description: 组件描述
  * @FilePath: /tian-lu/vue.config.js
  */
@@ -26,8 +26,4 @@ module.exports = {
             }
         }
     },
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/tian-lu/'
-        : '/'
-
 }
