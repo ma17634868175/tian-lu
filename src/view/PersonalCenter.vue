@@ -1,7 +1,7 @@
 <!--
  * @Author: marx
  * @Date: 2020-06-27 19:05:41
- * @LastEditTime: 2020-06-27 20:43:19
+ * @LastEditTime: 2020-06-27 22:40:35
  * @Description: 个人中心
  * @FilePath: /tian-lu/src/view/PersonalCenter.vue
 --> 
@@ -43,5 +43,6 @@ export default {
     url("../assets/imgs/nav_bg@3x.png") 3x
   );
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 </style>

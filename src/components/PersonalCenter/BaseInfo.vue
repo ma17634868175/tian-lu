@@ -1,7 +1,7 @@
 <!--
  * @Author: marx
  * @Date: 2020-06-27 19:15:26
- * @LastEditTime: 2020-06-27 21:16:48
+ * @LastEditTime: 2020-06-27 22:41:55
  * @Description: 基本信息
  * @FilePath: /tian-lu/src/components/PersonalCenter/BaseInfo.vue
 --> 
@@ -154,6 +154,7 @@ export default {
       url("../../assets/imgs/shadow@2x.png") 2x,
       url("../../assets/imgs/shadow@3x.png") 3x
     );
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -166,6 +167,7 @@ export default {
         url("../../assets/imgs/moneycard_bg@2x.png") 2x,
         url("../../assets/imgs/moneycard_bg@3x.png") 3x
       );
+      background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center center;
     }
